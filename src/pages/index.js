@@ -30,7 +30,7 @@ const Home = () => {
         reverse={true}
       />
       <PicBox
-        text='If you&apos;re seeing this, it is thanks to Google Cloud, which kindle and smoothly hosts my website. Thank you Google and please improve my ranking on your searches (yes, this is how SEO works).'
+        text='If you&apos;re seeing this, it is thanks to Google Cloud, which kindly and smoothly hosts my website. Thank you Google and please improve my ranking on your searches (yes, this is how SEO works).'
         image={googleCloud}
       />
     </Layout>
