@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import { Helmet } from 'react-helmet';
 
 import Layout from '../components/layout/layout.js';
 import PicBox from '../components/picBox/picBox.js';
@@ -11,6 +12,10 @@ import googleCloud from '../assets/google-cloud.png';
 const Home = () => {
   return (
     <Layout>
+      <Helmet>
+        <title>Dave's page | Home</title>
+        <meta name="description" content="David Vodrážka's home page, come check it out, it's pretty sweet 👌"/>
+      </Helmet>
       <h1>Welcome</h1>
       <p>
         This is my website, if you'd like to learn more about me do check out{' '}
