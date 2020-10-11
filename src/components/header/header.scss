@@ -20,6 +20,12 @@ header {
       left: -18px;
     }
 
+    &:hover {
+      div.arrow {
+        opacity: .2;
+      }      
+    }
+
     &.active {
       div.arrow {
         opacity: 1;
