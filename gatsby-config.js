@@ -6,5 +6,20 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    {
+      resolve: 'gatsby-plugin-sass',
+      options: {
+        implementation: require('sass'),
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'dave-the-programmer',
+        start_url: '/',
+        icon: 'src/assets/favicon.ico', // This path is relative to the root of the site.
+      },
+    },
+  ],
 }

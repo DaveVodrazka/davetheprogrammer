@@ -1,0 +1,14 @@
+@import '../../styles/variables.scss';
+
+main {
+  flex: 1;
+  max-width: $max-width;
+  min-width: $max-width;
+  margin: auto;
+}
+
+@media only screen and (max-width: 800px) {
+  main {
+    min-width: 90vw;
+  }
+}
