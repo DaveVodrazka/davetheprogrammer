@@ -8,11 +8,22 @@ header {
   min-width: $max-width;
   margin: auto;
   a {
+    position: relative;
     margin: 20px;
     text-decoration: none;
+    div.arrow {
+      position: absolute;
+      width: 18px;
+      height: 18px;
+      opacity: 0;
+      top: -8px;
+      left: -18px;
+    }
 
     &.active {
-      text-decoration: overline;
+      div.arrow {
+        opacity: 1;
+      }
     }
   }
 }
