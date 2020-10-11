@@ -12,6 +12,6 @@ RUN ["npm", "run", "build"]
 
 FROM nginx
 
-EXPOSE 443
+EXPOSE 8080
 
 COPY --from=builder /app/public /usr/share/nginx/html
