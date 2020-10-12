@@ -12,6 +12,12 @@ const AboutMe = () => {
         <meta name="description" content="Here you can find ways to contact me, so... what are you waiting for? 🤙"/>
       </Helmet>
       <h1>Contact</h1>
+      <p>
+        To contact me, feel free to use my email <b>dave.vodrazka@gmail.com</b>.
+      </p>
+      <p>
+        Or you can click any of the lovely social buttons bellow 👇
+      </p>
       <SocialBar />
     </Layout>
   );
