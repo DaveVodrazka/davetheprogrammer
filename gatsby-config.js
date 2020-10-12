@@ -21,5 +21,11 @@ module.exports = {
         icon: 'src/assets/favicon.ico', // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: 'gatsby-plugin-zopfli',
+      options: {
+        extensions: ['css', 'html', 'js', 'svg']
+      }
+    }
   ],
 }

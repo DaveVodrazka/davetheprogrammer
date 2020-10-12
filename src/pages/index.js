@@ -22,7 +22,7 @@ const Home = () => {
         <Link className='inline-link' to='/about-me'>About Me</Link>
         <br></br>
         If you'd like to contact me, you can do so through{' '}
-        <Link className='inline-link' to='/about-me'>Contact Me</Link>
+        <Link className='inline-link' to='/contact'>Contact Me</Link>
       </p>
       <PicBox
         text='This website has been created using Gatsbyjs framework. Gatsby generates static pages, where possible, from React which provides smoothest delivery of content. To find out more about Gatsby, visti www.gatsbyjs.com.'
