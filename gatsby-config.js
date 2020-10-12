@@ -5,27 +5,31 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    siteUrl: `https://davetheprogrammer.eu`,
+  },
   /* Your site config here */
   plugins: [
     {
-      resolve: 'gatsby-plugin-sass',
+      resolve: `gatsby-plugin-sass`,
       options: {
-        implementation: require('sass'),
+        implementation: require(`sass`),
       },
     },
     {
-      resolve: 'gatsby-plugin-manifest',
+      resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'dave-the-programmer',
-        start_url: '/',
-        icon: 'src/assets/favicon.ico', // This path is relative to the root of the site.
+        name: `dave-the-programmer`,
+        start_url: `/`,
+        icon: `src/assets/favicon.ico`, // This path is relative to the root of the site.
       },
     },
     {
-      resolve: 'gatsby-plugin-zopfli',
+      resolve: `gatsby-plugin-zopfli`,
       options: {
-        extensions: ['css', 'html', 'js', 'svg']
+        extensions: [`css`, `html`, `js`, `svg`]
       }
-    }
+    },
+    'gatsby-plugin-sitemap',
   ],
 }
