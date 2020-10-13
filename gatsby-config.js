@@ -27,7 +27,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-zopfli`,
       options: {
-        extensions: [`css`, `html`, `js`, `svg`]
+        extensions: [`css`, `html`, `js`, `svg`, `jpeg`, `jpg`]
       }
     },
     'gatsby-plugin-sitemap',
