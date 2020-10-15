@@ -76,7 +76,7 @@ html {
   }
 }
 
-body {
+body, textarea, label, input {
   font-family: var(--font-body);
   font-size: var(--fontSize-1);
   color:$color-text;
