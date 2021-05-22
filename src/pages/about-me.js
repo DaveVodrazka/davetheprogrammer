@@ -14,25 +14,25 @@ const AboutMe = () => {
     <Layout>
       <Helmet>
         <title>Dave's page | About Me</title>
-        <meta name="description" content="Find out more about David Vodrážka right on this page, you're literally one click away. 💖"/>
+        <meta name="description" content="David Vodrážka JavaScript developer - all you want to know is literally one click away. 💖"/>
       </Helmet>
       <h1>Hi, I'm Dave</h1>
       <img src={backgroundMe} className='fullWidth' alt='David Vodrážka playing petanque' />
       <PicBox
         image={profilePic}
-        alt='portrait photo of David Vodrážka'
-        text='My full name is David Vodrážka and one of the reasons why I created this website is to see myself when I google my name, which is why I use it quite extensively.'
+        alt='portrait of David Vodrážka JavaScript developer'
+        text='My name is David Vodrážka and I am a JavaScript developer. One of the reasons why I created this website is to see myself when I google my name, which is why I use it quite extensively.'
       />
       <PicBox
         image={czechFlag}
         alt='Czech Republic flag'
-        text='I was born and raised in the Czech Republic (it should be Czechia now, but I don&apos;t agree), I&apos;m stationed in the capital - Prague.'
+        text='I was born and raised in the Czech Republic and I live in it&amp;s capital - Prague.'
         reverse={true}
       />
       <PicBox
         image={codeImage}
         alt='JavaScript code'
-        text='Programming used to be just something I was learning out of curiosity, but now it pays my bills. I am employed in Seznam.cz, which is a pretty big deal here in the Czech Republic (no, not Czechia).'
+        text='Programming used to be just something I was learning out of curiosity, but now it pays my bills. I am employed in Seznam.cz, which is a pretty big deal here in the Czech Republic.'
       />
     </Layout>
   );

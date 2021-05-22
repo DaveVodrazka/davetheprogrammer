@@ -10,7 +10,7 @@ const AboutMe = () => {
     <Layout>
       <Helmet>
         <title>Dave's page | Contact</title>
-        <meta name="description" content="Here you can find ways to contact me, so... what are you waiting for? 🤙"/>
+        <meta name="description" content="David Vodrážka JavaScript developer - if you'd like to contant me... You know what to do 🤙"/>
       </Helmet>
       <h1>Contact</h1>
       <p>

@@ -14,7 +14,7 @@ const Home = () => {
     <Layout>
       <Helmet>
         <title>Dave's page | Home</title>
-        <meta name="description" content="David Vodrážka's home page, come check it out, it's pretty sweet 👌"/>
+        <meta name="description" content="David Vodrážka JavaScript developer - home page, come check it out, it's pretty sweet 👌"/>
       </Helmet>
       <h1>Welcome</h1>
       <p>
