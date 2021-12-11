@@ -29,20 +29,20 @@ const Home = () => {
         Keep reading to find out the stack that I like to work with 👨‍💻
       </p>
       <PicBox
+        text='This website has been created using Gatsbyjs framework. Gatsby generates static pages, where possible, from React which provides smoothest delivery of content. To find out more about Gatsby, visti www.gatsbyjs.com.'
+        image={gatsbyImage}
+        alt='Gatsby logo'
+      />
+      <PicBox
         text={['If it is not in a container it is not in the 21', <sup>st</sup>, ' century! Docker opens you up to all kinds of cool opportunities, give it a go!']}
         image={dockerLogo}
+        reverse={true}
         alt='Docker logo'
       />
       <PicBox
         text='When you get bored playing around with containers, let Kubernetes take the helm! "Helm", get it? Deploying and restarting containers manually is so 2014.'
         image={kubernetesLogo}
-        reverse={true}
         alt='Kubernetes logo'
-      />
-      <PicBox
-        text='This website has been created using Gatsbyjs framework. Gatsby generates static pages, where possible, from React which provides smoothest delivery of content. To find out more about Gatsby, visti www.gatsbyjs.com.'
-        image={gatsbyImage}
-        alt='Gatsby logo'
       />
       <PicBox
         text='The favicon was made using Pixelart. If you are at all interested in pixelart do visit their website at www.pixilart.com. If not, you should seriously reconsider your life choices.'

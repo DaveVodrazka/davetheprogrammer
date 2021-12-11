@@ -8,6 +8,7 @@ import backgroundMe from '../assets/background_me.jpeg';
 import profilePic from '../assets/profilepic.jpg';
 import czechFlag from '../assets/czechflag.png';
 import codeImage from '../assets/code.png';
+import javascriptLogo from '../assets/javascript.png';
 
 const AboutMe = () => {
   return (
@@ -32,7 +33,13 @@ const AboutMe = () => {
       <PicBox
         image={codeImage}
         alt='JavaScript code'
-        text='Programming used to be just something I was learning out of curiosity, but now it pays my bills. I am employed in Seznam.cz, which is a pretty big deal here in the Czech Republic.'
+        text='Programming used to be just something I was learning out of curiosity, but now it pays my bills. I am employed at Seznam.cz, which is a pretty big deal here in the Czech Republic.'
+      />
+      <PicBox
+        image={javascriptLogo}
+        alt='JavaScript logo'
+        text='My programming language of choice is ✨JavaScript✨ I started with the frontend, but I can handle all sides of any application🛠️'
+        reverse={true}
       />
     </Layout>
   );
