@@ -1,7 +1,7 @@
 import React from 'react';
 import Linkify from 'react-linkify';
 
-import style from './picBox.module.scss';
+import * as style from './picBox.module.scss';
 
 const PicBox = (props) => {
   return (

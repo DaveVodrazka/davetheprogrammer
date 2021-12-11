@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 
-import style from './form.module.scss';
+import * as style from './form.module.scss';
 
 const Form = () => {
   const SERVICE_ID = 'service_wdabwfs';

@@ -1,7 +1,7 @@
 import React from 'react';
 import Interval from 'react-interval-rerender';
 
-import style from './timer.module.scss';
+import * as style from './timer.module.scss';
 
 const Timer = () => {
   return (
