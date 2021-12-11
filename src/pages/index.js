@@ -8,6 +8,8 @@ import PicBox from '../components/picBox/picBox.js';
 import gatsbyImage from '../assets/gatsby.png';
 import pixelartImage from '../assets/pixelart.png';
 import googleCloud from '../assets/google-cloud.png';
+import dockerLogo from '../assets/docker.png';
+import kubernetesLogo from '../assets/kubernetes.png';
 
 const Home = () => {
   return (
@@ -23,7 +25,20 @@ const Home = () => {
         <br></br>
         If you'd like to contact me, you can do so through{' '}
         <Link className='inline-link' to='/contact'>Contact Me</Link>
+        <br></br>
+        Keep reading to find out the stack that I like to work with 👨‍💻
       </p>
+      <PicBox
+        text={['If it is not in a container it is not in the 21', <sup>st</sup>, ' century! Docker opens you up to all kinds of cool opportunities, give it a go!']}
+        image={dockerLogo}
+        alt='Docker logo'
+      />
+      <PicBox
+        text='When you get bored playing around with containers, let Kubernetes take the helm! "Helm", get it? Deploying and restarting containers manually is so 2014.'
+        image={kubernetesLogo}
+        reverse={true}
+        alt='Kubernetes logo'
+      />
       <PicBox
         text='This website has been created using Gatsbyjs framework. Gatsby generates static pages, where possible, from React which provides smoothest delivery of content. To find out more about Gatsby, visti www.gatsbyjs.com.'
         image={gatsbyImage}
