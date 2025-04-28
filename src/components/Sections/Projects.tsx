@@ -11,11 +11,11 @@ export const Projects = () => {
       </div>
 
       <div className="relative h-full">
-        <div className="absolute right-0 top-0 h-full w-2/3 flex items-center justify-center">
+        <div className="absolute right-0 top-0 h-full w-2/3 flex items-center justify-end">
           <img
             src={carmine}
             alt="Carmine Options AMM app screenshot"
-            className="rounded-lg"
+            className="w-3/4 rounded-lg -z-10"
           />
         </div>
         <div className="absolute left-0 top-0 bottom-0 w-1/2 flex flex-col justify-evenly items-center">
@@ -34,11 +34,11 @@ export const Projects = () => {
         </div>
       </div>
       <div className="relative h-full">
-        <div className="absolute left-0 top-0 h-full w-2/3 flex items-center justify-center">
+        <div className="absolute left-0 top-0 h-full w-2/3 flex items-center justify-start">
           <img
             src={remus}
             alt="RemusDEX app screenshot"
-            className="rounded-lg"
+            className="w-3/4 rounded-lg -z-10"
           />
         </div>
         <div className="absolute right-0 top-0 bottom-0 w-1/2 flex flex-col justify-evenly items-center">
